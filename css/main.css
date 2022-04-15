@@ -1,0 +1,426 @@
+  /*Reset*/
+  *{
+      margin: 0;
+      padding: 0;
+   }
+   /*----Propiedades  header----*/
+   /*---Version Mobile 576px---*/
+   body .contenedorIndex{
+      font-family: 'Roboto', sans-serif;
+   }
+   header{
+      background-color: #A3E4D7;
+      position: sticky;
+      top: 0;
+      z-index: 2 !important;
+   }
+   /*Propiedades del logo*/
+   .propLogo{
+      text-align: center;
+   }
+   /*animacion del logo*/
+   .propLogo img:hover{
+      transform: scale(1.025);
+      transition: 0.5s;
+   }
+   /*Propiedades Navbar*/
+   .menuHeader{
+      color: white;
+   }
+   .contenedorNavbar{
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+   }
+   /*animacion del menu*/
+   .menuHeader ul li:hover{
+      background-color:#27c1f5 !important;
+      border-radius: 1.1rem;
+      transform: scale(1.3);
+      transform: translate(0.1rem, 0.1rem);
+      box-shadow: 3px 3px rgb(51, 51, 51);
+      transition: 0.5s;
+   }
+   .contenedorNavbar li a{
+      font-size: 1rem;
+      font-weight: bold;
+      background-color: white;
+      color: rgb(85, 85, 219) !important;
+      margin: 0.2rem;
+      padding: 1px;
+      border-radius: 0.8rem;
+      text-align: center;
+   }
+   .headerChart img{
+      width: 50%;
+   }
+   /*----cierre del Header----*/
+   /*---version Mobile 576px---*/
+
+/*-------------------------------------*/
+   
+   /*----Propiedades Footer----*/
+   /*---Version Mobile 576px---*/
+   footer{
+      background-color: rgb(128, 118, 118);
+   }
+   /*Propiedades de "C"*/
+   .footerC{
+      justify-content: center;
+      padding: 0.5rem; 
+   }
+   /*tamano de imagen legal "C"*/
+   .footerC img{
+      width: 5%;
+   }
+   .footerText{
+      justify-content: center;
+   }
+   /*color y size del H3*/
+   .footerText h3{
+      color: rgba(24, 23, 22, 0.904);
+      font-size: 1rem;
+      line-height: 0.75rem;
+   }
+   /* detalle de linea*/
+   span{
+      color: darkblue;
+      font-weight: bolder;
+   }
+   /*ubicacionde redes sociales*/
+   .footerRedes img{
+      margin-bottom: 0.5rem;
+   }
+   /*Face & Instagram size*/
+   .sideF, .sideI{
+      width: 7.5%;
+      padding: 0.25rem;
+   }
+   /*Animacion logo Face*/
+   .sideF:hover{
+      transform: scale(1.2);
+      transition: 0.5s;
+   }
+   /*Animacion Logo Inst*/
+   .sideI:hover{
+      transform: scale(1.2);
+      transition: 0.5s;
+   }
+   /*----cierre Main-Footer----*/
+   /*---version Mobile 576px---*/
+   
+/*-------------------------------------*/
+
+   /*----Propiedades Main-index----*/
+   /*---version Mobile 576px---*/
+   .contMainIndex{
+      background-image: url(../img/pared.jpg);
+      background-size: cover;
+   }
+   .contenedorCarrusel{
+      max-height: 35%;
+      max-width: 55%;
+      margin: 0.75rem;
+   }
+   .contenedorCarrusel img{
+      margin: 1rem 0rem;
+      border: 0.5rem solid whitesmoke;
+   }
+   /*WS position fixed*/
+   .editWs img{
+      position: fixed;
+      bottom: 5rem;
+      right: 0;
+      width: 20%;
+   }
+   /*Animacion en loop*/
+   .wsAnime{
+      animation-name: vive;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+   }
+   @keyframes vive{
+      0%{ transform: scale(1)}
+      50%{ transform: scale(1.10)}
+   }
+   /*----cierre Main-index----*/
+   /*---version Mobile 576px---*/
+
+/*-------------------------------------*/
+   
+   /*----Propiedades Main-aboutUs----*/
+   /*---Version Mobile 576px---*/
+   .contMainAu{
+      background-image: url(../img/index.fondo\ madera.jpg);
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      color: #1C2833;
+   }
+   .section1Au, .section2Au{
+      text-align: center;
+   }
+   .cardAu img{
+      border-radius: 1rem;
+   }
+   .videoAu video{
+      
+      border: 1.5px solid black;
+      background-color: #1C2833;
+   }
+   /*----cierre Main-About Us----*/
+   /*---version Mobile 576px---*/
+      
+/*-------------------------------------*/
+
+   /*----Propiedades  Main-FoodtoGo----*/
+   /*---Version Mobile 576px---*/
+   .contMainFtg{
+      background-image: url(../img/pared.jpg);
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      color: #1C2833;
+   }
+   /*titulo Ftg*/
+   .tituloFtg h1{
+      font-size: 2rem;
+   }
+   .card{
+      margin: 2rem;
+   }
+   .card img{
+      border: 3.5px solid white;
+   }
+   /*----cierre Main FoodtoGo----*/
+   /*---version Mobile 576px---*/
+
+/*-------------------------------------*/
+
+   /*----Propiedades Main-Faqs----*/
+   /*---Version Mobile 576px---*/
+   .contMainFaqs{
+      background-image: url(../img/philosophy\ \(2\).jpg);
+      background-size: cover;
+      font-family:'Roboto', sans-serif;
+      color: #1C2833;
+   }
+   .tituloFaqs{
+      font-size: 5rem;
+      background-color: rgba(245, 245, 245, 0.26);
+   }
+   .subFaqs{
+      background-color: rgba(245, 245, 245, 0.26);
+   }
+   .section2{
+      padding: 3rem;
+   }
+   .estilosAcordion{
+      background-color: rgba(214, 205, 205, 0.541);
+   }
+   .estiloTextoAcord{
+      background-color:rgba(245, 245, 245, 0.356) !important;
+      font-weight: bold;
+   }
+
+   /*----cierre Main-Faqs----*/
+   /*---version Mobile 576px---*/
+
+/*-------------------------------------*/
+
+   /*----Propiedades Main-Contact Us----*/
+   /*---Version Mobile 576px---*/
+   .contenedorCu{
+      background-image: url(../img/index.fondo\ madera.jpg);
+      background-size: cover;
+   } 
+   .contSectionCu1 img{
+      width: 10%;
+   }
+   .contSectionCu1 h3{
+      font-size: 1rem;
+   }
+   .estilosForm{
+      font-family:'Roboto', sans-serif;
+      color: #1C2833;
+      font-weight: bold;
+      padding-left: 1rem;
+   }
+   /*Animacion Botton back*/
+   .backHomeCu img:hover{
+      transform: scale(1.2);
+   }
+   .backHomeCu img{
+      transition: 2s;
+   }
+   .backHomeCu p{
+      color:rgb(53, 52, 52);
+   }
+   /*----cierre Main-Contact Us----*/
+   /*---version Mobile 576px---*/
+
+/*-----------------------------------------*/   
+
+@media only screen and (min-width: 768px){
+
+   /*----Propiedades  Header----*/
+   /*---Todos los html---*/
+   /*---version ipad/laptop 768px---*/
+   
+   .propLogo{
+      text-align: left;
+      margin-left: 5rem;
+   }
+   .propLogo img{
+      width: 220px;
+   }
+   .contenedorNavbar{
+      flex-flow: row nowrap !important;
+      justify-content: end;
+      align-items: flex-end;
+   }
+   .menuHeader li a{
+      font-size: 1.25rem;
+   }
+   .headerChart img{
+      width: 60%;
+      padding-bottom: 0.5rem;
+   }
+   /*----Cierre  header----*/
+   /*---version laptop 768px---*/ 
+
+   /*-------------------------------------*/
+
+   /*----Propiedades  Footer----*/
+   /*---todos los html---*/
+   /*---version desktop 768px--*/ 
+   footer{
+      height: 75px;
+   }
+   .footerC{
+      justify-content: center;
+      align-items: center;
+      padding: 0.25em;
+   }
+   .footerC img{
+      width: 30px;
+   }
+   .footerText{
+      justify-content: center;
+      align-items: center;
+   }
+   .footerText h3{
+      font-size: 1.15rem;
+      }
+   .footerRedes{
+      justify-content: end;
+      text-align: center;
+      Padding: 0.25rem 0.15rem;
+   }
+   .footerRedes img{
+      width: 50px;
+   }
+   /*----Cierre  Footer----*/
+   /*---version desktop 768px---*/
+
+   /*-------------------------------------*/
+      
+   /*----Propiedades Main-Index----*/
+   /*---version ipad/laptop 768px---*/
+   .editHead{
+      font-size: 3.5rem;
+   }
+   .editSubt{
+      color:  #1c2833d8;
+      font-size: 2.5rem;
+   }
+   .editP{
+      color: #1c2833be;
+      font-size: 1.5rem;
+   }
+   /*----cierre Main-Index----*/
+   /*---version desktop 768px---*/
+
+   /*-------------------------------------*/
+
+   /*--Propiedades Main-About Us--*/
+   /*---version desktop 768px---*/  
+   .tituloAu{
+      text-align: left !important;
+      padding-left: 5rem !important;
+   }   
+   .section1Au, .section2Au{
+      text-align: justify;
+   }               
+   .section1Au img, .section2Au img{
+      border-radius: 0.5rem;
+   } 
+   /*----Cierre Main-About us----*/
+   /*---version desktop 1024px--*/   
+
+   /*-------------------------------------*/
+
+   /*---Propiedades Main-FoodtoGo--*/
+   /*---version desktop 1024px---*/ 
+   
+      /*titulo Ftg*/
+   .tituloFtg{
+      padding: 1rem 0 1.5rem 5rem;
+      text-align: left;
+      font-size: 4rem;
+   }
+   .tituloFtg h1{
+      font-size: 3rem !important;
+   }
+   .card img{
+      border: 1.5px solid white;
+   }
+   .estiloCard{
+      background-color: whitesmoke;
+   }
+
+   .btn:hover{
+      transform: scale(1.1);
+      box-shadow: #1C2833;
+   }
+    /*----Cierre Main-FoodtoGo----*/
+   /*---version desktop 768px--*/ 
+
+   /*-------------------------------------*/
+
+   /*----Propiedades Main-Faqs----*/
+   /*----version Desktop 768px-----*/
+   
+
+   /*----Cierre Main-Faqs----*/
+   /*---version Desktop 768px--*/
+
+   /*-------------------------------------*/
+
+   /*---Propiedades Main-Contact Us---*/
+   /*---Version desktop 768px---*/
+   .contenedorCu{
+      background-image: url(../img/index.fondo\ madera.jpg);
+      background-size: cover;
+   } 
+   .tituloCu h1{
+      text-align: left !important;
+      padding-left: 5rem;
+   }
+   .contSectionCu1 img{
+      width: 10%;
+   }
+   .contSectionCu1 h3{
+      font-size: 1.5rem;
+   }
+   /*----Cierre Main-Contact Us----*/
+   /*---version desktop 768---*/
+   
+}
+
+      /*--No es magia es codigo--*/
+      /*--Fede castro lo dijo--*/
+
+
+ 
+
+
+               
