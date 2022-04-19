@@ -21,19 +21,16 @@
    .propLogo img{
       width: 35%;
    }
-   
    /*animacion del logo*/
    .propLogo img:hover{
       transform: scale(1.025);
       transition: 0.5s;
    }
-  
    /*Propiedades Navbar*/
    .menuHeader{
       display:inline-block;
       padding: 0.5rem;
    }
-   
    /*animacion del menu*/
    .menuHeader ul li:hover{
       background-color:#27c1f5;
@@ -66,6 +63,10 @@
    .headerChart img{
       width: 35px;
    }
+   .contenedorNavbar .row{
+      margin: 0;
+      padding: 0;
+   }
    /*----cierre del Header----*/
    /*---version Mobile 576px---*/
 
@@ -86,7 +87,7 @@
    .footerC img{
       width: 5%;
    }
-   /*color y size del H3*/
+   /*color & size*/
    .footerText h3{
       color: rgba(24, 23, 22, 0.904);
       font-size: 1rem;
@@ -129,6 +130,7 @@
       background-image: url(../img/pared.jpg);
       background-size: cover;
    }
+   /*Prop carrusel*/
    .contenedorCarrusel{
       max-height: 35%;
       max-width: 55%;
@@ -148,6 +150,7 @@
       margin-right: 0;
       padding-right: 0;
    }
+   /*h1-h2-p*/
    .editHead{
       font-size: 2.25rem;
    }
@@ -156,12 +159,13 @@
       font-size: 1.75rem;
    }
    .editP{
-      display: none;
+      color:  #1c2833d8;
+      font-size: 0.75rem;
    }
    /*WS position fixed*/
    .editWs img{
       position: fixed;
-      bottom: 5rem;
+      bottom: 7rem;
       right: 0;
       width: 20%;
    }
@@ -218,12 +222,14 @@
    .tituloFtg h1{
       font-size: 2rem;
    }
+   /*Prop Cards*/
    .ubicCard{
       justify-content: center;
    }
    .card{
       margin: 2rem;
       text-align: center;
+      padding: 0;
    }
    .card img{
       border: 3.5px solid rgb(168, 164, 164);
@@ -248,6 +254,7 @@
       font-family:'Roboto', sans-serif;
       color: #1C2833;
    }
+   /*H1-H2*/
    .tituloFaqs{
       font-size: 5rem;
       background-color: rgba(245, 245, 245, 0.26);
@@ -258,6 +265,7 @@
    .section2{
       padding: 3rem;
    }
+   /*Prop Acordion*/
    .estilosAcordion{
       background-color: rgba(214, 205, 205, 0.541);
    }
@@ -315,6 +323,7 @@
    /*---Todos los html---*/
    /*---version ipad/laptop 768px---*/
    
+   /*Prop menu nuevo size*/
    .propLogo{
       text-align: left;
       margin-left: 5rem;
@@ -342,6 +351,8 @@
    /*----Propiedades  Footer----*/
    /*---todos los html---*/
    /*---version ipad/laptop 768px--*/ 
+
+   /*prop Footer nuevo Size*/
    footer{
       height: 5rem;
       padding-top: 1rem;
@@ -385,7 +396,6 @@
       font-size: 3rem;
    }
    .editP{
-      display: block;
       color: #1c2833be;
       font-size: 1.5rem;
       font-weight: 900;
@@ -394,7 +404,6 @@
    .editWs img{
       width: 15%;
    }
-
    /*----cierre Main-Index----*/
    /*---version 768px---*/
 
@@ -427,7 +436,6 @@
    /*---Propiedades Main-FoodtoGo--*/
    /*---version ipad/laptop 768px---*/ 
    
-      /*titulo Ftg*/
    .tituloFtg{
       padding: 1rem 0 1.5rem 5rem;
       text-align: left;
