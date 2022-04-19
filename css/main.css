@@ -12,47 +12,59 @@
       background-color: #A3E4D7;
       position: sticky;
       top: 0;
-      z-index: 2 !important;
+      z-index: 3 !important;
    }
    /*Propiedades del logo*/
    .propLogo{
       text-align: center;
    }
+   .propLogo img{
+      width: 35%;
+   }
+   
    /*animacion del logo*/
    .propLogo img:hover{
       transform: scale(1.025);
       transition: 0.5s;
    }
+  
    /*Propiedades Navbar*/
    .menuHeader{
-      color: white;
+      display:inline-block;
+      padding: 0.5rem;
    }
-   .contenedorNavbar{
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      align-items: center;
-   }
+   
    /*animacion del menu*/
    .menuHeader ul li:hover{
-      background-color:#27c1f5 !important;
+      background-color:#27c1f5;
       border-radius: 1.1rem;
       transform: scale(1.3);
       transform: translate(0.1rem, 0.1rem);
       box-shadow: 3px 3px rgb(51, 51, 51);
       transition: 0.5s;
    }
+   /* sobre escribo Prop. button nav*/
+   .nav-link{
+      padding: 0;
+      margin: 0;
+   }
+   /*Propiedades Nav*/
    .contenedorNavbar li a{
       font-size: 1rem;
       font-weight: bold;
       background-color: white;
       color: rgb(85, 85, 219) !important;
       margin: 0.2rem;
-      padding: 1px;
-      border-radius: 0.8rem;
+      border-radius: 1rem;
       text-align: center;
    }
+   /*carro de compras*/
+   .headerChart{
+      justify-content: center;
+      align-items: center;
+   }
    .headerChart img{
-      width: 50%;
+      width: 35px;
    }
    /*----cierre del Header----*/
    /*---version Mobile 576px---*/
@@ -67,20 +79,19 @@
    /*Propiedades de "C"*/
    .footerC{
       justify-content: center;
-      padding: 0.5rem; 
+      padding-top: 0.5rem; 
+      padding-bottom: 0.25rem;
    }
    /*tamano de imagen legal "C"*/
    .footerC img{
       width: 5%;
-   }
-   .footerText{
-      justify-content: center;
    }
    /*color y size del H3*/
    .footerText h3{
       color: rgba(24, 23, 22, 0.904);
       font-size: 1rem;
       line-height: 0.75rem;
+      text-align: center;
    }
    /* detalle de linea*/
    span{
@@ -89,12 +100,13 @@
    }
    /*ubicacionde redes sociales*/
    .footerRedes img{
-      margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
    }
    /*Face & Instagram size*/
    .sideF, .sideI{
       width: 7.5%;
-      padding: 0.25rem;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
    }
    /*Animacion logo Face*/
    .sideF:hover{
@@ -125,6 +137,26 @@
    .contenedorCarrusel img{
       margin: 1rem 0rem;
       border: 0.5rem solid whitesmoke;
+   }
+   .carousel-indicators button{
+      margin: 1rem;
+   }
+   .carousel-control-prev-icon, .carousel-control-next-icon{
+      background-color: #777c818b;
+   }
+   .propSection1{
+      margin-right: 0;
+      padding-right: 0;
+   }
+   .editHead{
+      font-size: 2.25rem;
+   }
+   .editSubt{
+      color:  #1c2833d8;
+      font-size: 1.75rem;
+   }
+   .editP{
+      display: none;
    }
    /*WS position fixed*/
    .editWs img{
@@ -159,13 +191,15 @@
    .section1Au, .section2Au{
       text-align: center;
    }
+   .bioCorte{
+      display: none;
+   }
    .cardAu img{
       border-radius: 1rem;
    }
-   .videoAu video{
-      
+   .videoAu iframe{
+      width: 100%;
       border: 1.5px solid black;
-      background-color: #1C2833;
    }
    /*----cierre Main-About Us----*/
    /*---version Mobile 576px---*/
@@ -184,11 +218,22 @@
    .tituloFtg h1{
       font-size: 2rem;
    }
+   .ubicCard{
+      justify-content: center;
+   }
    .card{
       margin: 2rem;
+      text-align: center;
    }
    .card img{
-      border: 3.5px solid white;
+      border: 3.5px solid rgb(168, 164, 164);
+   }
+   .estiloCard{
+      background-image: linear-gradient(to right, whitesmoke, rgb(183, 174, 174));
+   }
+   .card .btn:hover{
+      transform: scale(1.1);
+      box-shadow: 3px 3px #1C2833;
    }
    /*----cierre Main FoodtoGo----*/
    /*---version Mobile 576px---*/
@@ -244,11 +289,16 @@
       font-weight: bold;
       padding-left: 1rem;
    }
+   .propBtnHome{
+      padding: 0;
+      margin: 0;
+   }
    /*Animacion Botton back*/
    .backHomeCu img:hover{
       transform: scale(1.2);
    }
    .backHomeCu img{
+      width: 15%;
       transition: 2s;
    }
    .backHomeCu p{
@@ -273,27 +323,28 @@
       width: 220px;
    }
    .contenedorNavbar{
-      flex-flow: row nowrap !important;
-      justify-content: end;
-      align-items: flex-end;
+      text-align: end;
+   }
+   .menuHeader{
+      text-align: end;
    }
    .menuHeader li a{
       font-size: 1.25rem;
    }
    .headerChart img{
-      width: 60%;
-      padding-bottom: 0.5rem;
+     width: 50px;
    }
    /*----Cierre  header----*/
-   /*---version laptop 768px---*/ 
+   /*---version 768px---*/ 
 
    /*-------------------------------------*/
 
    /*----Propiedades  Footer----*/
    /*---todos los html---*/
-   /*---version desktop 768px--*/ 
+   /*---version ipad/laptop 768px--*/ 
    footer{
-      height: 75px;
+      height: 5rem;
+      padding-top: 1rem;
    }
    .footerC{
       justify-content: center;
@@ -304,62 +355,77 @@
       width: 30px;
    }
    .footerText{
+      display: flex;
       justify-content: center;
       align-items: center;
    }
    .footerText h3{
-      font-size: 1.15rem;
+      font-size: 1.5rem;
       }
    .footerRedes{
       justify-content: end;
-      text-align: center;
+      
       Padding: 0.25rem 0.15rem;
    }
    .footerRedes img{
       width: 50px;
    }
    /*----Cierre  Footer----*/
-   /*---version desktop 768px---*/
+   /*---version 768px---*/
 
    /*-------------------------------------*/
       
    /*----Propiedades Main-Index----*/
    /*---version ipad/laptop 768px---*/
    .editHead{
-      font-size: 3.5rem;
+      font-size: 4.5rem;
    }
    .editSubt{
       color:  #1c2833d8;
-      font-size: 2.5rem;
+      font-size: 3rem;
    }
    .editP{
+      display: block;
       color: #1c2833be;
       font-size: 1.5rem;
+      font-weight: 900;
    }
+   /*WS position fixed*/
+   .editWs img{
+      width: 15%;
+   }
+
    /*----cierre Main-Index----*/
-   /*---version desktop 768px---*/
+   /*---version 768px---*/
 
    /*-------------------------------------*/
 
    /*--Propiedades Main-About Us--*/
-   /*---version desktop 768px---*/  
+   /*---version ipad-laptop 768px---*/  
    .tituloAu{
       text-align: left !important;
       padding-left: 5rem !important;
    }   
    .section1Au, .section2Au{
       text-align: justify;
-   }               
+   }       
+   .bioCorte{
+      display: block;
+      color: #1C2833;
+   }        
    .section1Au img, .section2Au img{
       border-radius: 0.5rem;
    } 
+   .philoP{
+      font-size: 0.75rem;
+   }
    /*----Cierre Main-About us----*/
-   /*---version desktop 1024px--*/   
+   /*---version 768px--*/   
 
    /*-------------------------------------*/
 
    /*---Propiedades Main-FoodtoGo--*/
-   /*---version desktop 1024px---*/ 
+   /*---version ipad/laptop 768px---*/ 
    
       /*titulo Ftg*/
    .tituloFtg{
@@ -373,14 +439,7 @@
    .card img{
       border: 1.5px solid white;
    }
-   .estiloCard{
-      background-color: whitesmoke;
-   }
-
-   .btn:hover{
-      transform: scale(1.1);
-      box-shadow: #1C2833;
-   }
+  
     /*----Cierre Main-FoodtoGo----*/
    /*---version desktop 768px--*/ 
 
@@ -388,8 +447,12 @@
 
    /*----Propiedades Main-Faqs----*/
    /*----version Desktop 768px-----*/
-   
-
+   .tituloFaqs{
+      font-size: 7rem;
+   }
+   .estiloTextoAcord{
+      font-size: 1.2rem;
+   }
    /*----Cierre Main-Faqs----*/
    /*---version Desktop 768px--*/
 
@@ -401,10 +464,6 @@
       background-image: url(../img/index.fondo\ madera.jpg);
       background-size: cover;
    } 
-   .tituloCu h1{
-      text-align: left !important;
-      padding-left: 5rem;
-   }
    .contSectionCu1 img{
       width: 10%;
    }

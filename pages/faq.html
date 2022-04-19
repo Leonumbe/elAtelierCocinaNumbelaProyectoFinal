@@ -31,54 +31,47 @@
             <section class="propLogo">
                 <div class="container-fluid">
                     <div class="row">
-                        <a class="navbar-brand" href="../index.html">
-                        <img src="../img/Logo 200px.png" alt="Logo marca" class="col-md-12 animate__animated animate__heartBeat ">
+                        <a class="col-12" href="../index.html">
+                        <img src="../img/Logo 200px.png" alt="Logo marca" class="animate__animated animate__heartBeat">
                         </a>
                     </div>
                 </div>
             </section>
 
             <!--Menu de navegacion + stick-->
-            <div class="contenedorNavbar d-flex">
-
-                <nav class="navbar navbar-expand-md navbar-light menuHeader">
-                    <div class="container-fluid">
-                        
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-    
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav col-md-12">
-    
-                                <li class="nav-item ">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                                </li>
-    
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
-                                </li>
-                                
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="foodToGo.html">Food to Go</a>
-                                </li>
-    
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="faq.html">FAQs</a>
-                                </li>
-    
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="contacUs.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="container-fluid contenedorNavbar">
+                <div class="row d-flex">
+                    <div class="col-11">
+                        <nav class="navbar navbar-expand-md navbar-light menuHeader">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav col-md-12">
+                                    <li class="nav-item ">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                                    </li>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="foodToGo.html">Food to Go</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="faq.html">FAQs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="contacUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
-                </nav>
-        
-                <!--carrito de compras-->
-                <div class="headerChart">  
-                    <img src="../img/Cart-black-75px-transformed.png" alt="carrito de compras" >
+                    <!--carrito de compras-->
+                    <div class="col-1 headerChart d-flex">  
+                        <img src="../img/Cart-black-75px-transformed.png" alt="carrito de compras" >
+                    </div>
                 </div>
             </div> 
         </header>
@@ -91,6 +84,7 @@
                     <div class="row text-center">
                         <h1 class="col-md-12 tituloFaqs fw-bold p-5">FAQs</h1>
                     </div>
+                    <!--subtitulo -->
                     <div class="row text-center" >
                         <h2 class="col-md-12 subFaqs fw-bold fs-1">Frequently Asked Questions</h2>
                     </div>
@@ -99,12 +93,11 @@
 
             <section class="section2">
                 <!--preguntas Frecuentes-->
-                <div. class=" container-fluid mb-5">
-
+                <div. class="container-fluid mb-5">
                     <div class="row justify-content-center">
                         <div class=" col-10 col-sm-9 col-md-8">
+                            
                             <div class="accordion" id="accordionExample">
-
                                 <div class="accordion-item estilosAcordion">
                                     <h3 class="accordion-header" >
                                         <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -147,11 +140,11 @@
 
                                 <div class="accordion-item estilosAcordion">
                                     <h3 class="accordion-header" >
-                                        <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                             what is the shipping cost?
                                         </button>
                                     </h3>
-                                    <div id="collapseOne" class="accordion-collapse collapse"  aria-labelledby="headingOne"data-bs-parent="#accordionExample">
+                                    <div id="collapseFour" class="accordion-collapse collapse"  aria-labelledby="headingFour"data-bs-parent="#accordionExample">
                                         <div class="accordion-body estiloTextoAcord">
                                         <p>If you buy <strong>15 plates</strong> or more, the shipping cost is u$s 12.00.
                                         For smaller orders the shipping cost is u$s 25.00-.</p>
@@ -161,11 +154,11 @@
 
                                 <div class="accordion-item estilosAcordion">
                                     <h3 class="accordion-header" >
-                                        <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                                             In which areas do they deliver?
                                         </button>
                                     </h3>
-                                    <div id="collapseOne" class="accordion-collapse collapse"  aria-labelledby="headingOne"data-bs-parent="#accordionExample">
+                                    <div id="collapseFive" class="accordion-collapse collapse"  aria-labelledby="headingFive"data-bs-parent="#accordionExample">
                                         <div class="accordion-body estiloTextoAcord">
                                         <p>Entire west coast of california</p>
                                         </div>
@@ -195,31 +188,30 @@
         <footer class="container-fluid">
             <!--imagen derechos reservados-->    
             <div class="row">
-                <div class="col-md-3 footerC d-flex">  
+                <div class="col-xs-12 col-md-2 footerC d-flex">  
                     <img src="../img/derechos sin fondo 50px.png" alt="Logo de los derechos de autor C">
                 </div>
-                
                 <!--Detalle de derechos reservados--> 
-                <div class=" col-md-6 footerText d-flex">    
+                <div class="col-xs-12 col-md-8 footerText">    
                     <h3>2022 copyright.</h3> 
                     <h3> Created by <span>LeoNumbela</span></h3> 
                 </div>
-                
                 <!--Logo de las redes con enlaces absolutos-->
-                <div class="col-md-3 footerRedes text-center">
+                <div class="col-xs-12 col-md-2 footerRedes text-center">
                     <a href="https://www.facebook.com/elateliercocina" target="blank">
-                        <img class="sideF" src="../img/face-transformed 75px.png" alt=" logo de facebook">
+                     <img class="sideF" src="../img/face-transformed 75px.png" alt=" logo de facebook">
                     </a>
                     <a href="https://www.instagram.com/el_atelier_cocina" target="blank">
-                        <img class="sideI" src="../img/inst-transformed-75px-transformed.png" alt="logo de instagram">
+                     <img class="sideI" src="../img/inst-transformed-75px-transformed.png" alt="logo de instagram">
                     </a>
                 </div>
             </div>
-        </footer> 
+        </footer>
         
     </div>
 
     <!--Link de Js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 </html>
